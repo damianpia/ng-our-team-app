@@ -3,3 +3,11 @@
 
 $margin-small: 2rem;
 $font-stack: "Roboto", sans-serif;
+$blue-01: #160d66;
+$blue-02: #5853a3;
+$blue-03: #4489d8;
+
+a:link {
+    color: $blue-03;
+    text-decoration: none;
+}

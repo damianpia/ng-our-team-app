@@ -1,0 +1,13 @@
+<div class="member-card">
+  <img class="face-photo" [src]="employee.imageUrl['w400']">
+  <div>
+    <p class="employee-name"> {{ employee.block.title }}</p>
+    <p class="employee-position"> {{ employee.block.description }}</p>
+  </div>
+  <div>
+    <a href="mailto:{{ employee.block.link }}" target="_blank">
+      {{ employee.block.link }}
+    </a>
+    <p> {{ employee.block.text }}</p>
+  </div>
+</div>
