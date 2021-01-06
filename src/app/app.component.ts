@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ApiService } from './api.service';
-import { Employee } from './components/crew-list';
+import { Member } from './components/crew-list';
 
 @Component({
   selector: 'app-root',

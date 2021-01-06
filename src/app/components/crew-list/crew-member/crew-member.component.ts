@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Employee } from '../crew-list.types';
+import { Member } from '../crew-list.types';
 
 @Component({
   selector: 'app-crew-member',
@@ -8,7 +8,7 @@ import { Employee } from '../crew-list.types';
 })
 export class CrewMemberComponent implements OnInit {
 
-  @Input() employee: Employee;
+  @Input() member: Member;
 
   constructor() { }
 

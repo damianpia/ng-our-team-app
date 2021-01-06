@@ -1,4 +1,4 @@
-export interface Employee {
+export interface Member {
   block: {
     description: string;
     link: string;

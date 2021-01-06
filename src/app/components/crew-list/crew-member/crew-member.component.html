@@ -1,13 +1,13 @@
 <div class="member-card">
-  <img class="face-photo" [src]="employee.imageUrl['w400']">
+  <img class="face-photo" [src]="member.imageUrl['w400']">
   <div>
-    <p class="employee-name"> {{ employee.block.title }}</p>
-    <p class="employee-position"> {{ employee.block.description }}</p>
+    <p class="member-name"> {{ member.block.title }}</p>
+    <p class="member-position"> {{ member.block.description }}</p>
   </div>
-  <div class="employee-contact-info">
-    <a href="mailto:{{ employee.block.link }}" target="_blank">
-      {{ employee.block.link }}
+  <div class="member-contact-info">
+    <a href="mailto:{{ member.block.link }}" target="_blank">
+      {{ member.block.link }}
     </a>
-    <p> {{ employee.block.text }}</p>
+    <p> {{ member.block.text }}</p>
   </div>
 </div>

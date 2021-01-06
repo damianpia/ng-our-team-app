@@ -1,3 +1,5 @@
+@import "../../../styles.scss";
+
 .crew-members-container {
     display: flex;
     height: 100%;
@@ -5,5 +7,5 @@
     margin: 0;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: $margin-small;
 }

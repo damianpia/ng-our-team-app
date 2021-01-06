@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, Input, OnChanges, OnInit } from '@angular/core';
-import { Employee } from '.';
+import { Member } from '.';
 
 @Component({
   selector: 'app-crew-list',
@@ -8,7 +8,7 @@ import { Employee } from '.';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CrewListComponent {
-  @Input() employees: Array<Employee>;
+  @Input() members: Array<Member>;
 
   constructor() { }
 }
