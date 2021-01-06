@@ -1,4 +1,8 @@
+@import "../../../styles.scss";
+
 .page-title {
     grid-column: span 8;
     text-align: center;
+    font: $font-stack;
+    font-size: 4rem;
 }
