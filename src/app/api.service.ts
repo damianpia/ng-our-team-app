@@ -21,7 +21,6 @@ export class ApiService {
     return this.http.get(url, { observe: 'body', responseType: 'json' }).pipe(
       map((response: any) => response.data[0].attributes.memberCards), // any is not the best option here, I know :(.
       map((memberCards: any) => Object.values(memberCards) as Array<Employee>),
-      tap(employees => console.log(employees[0].imageUrl)),
       catchError((err: HttpErrorResponse) => {
         console.warn(`Error grabbing employees data: ${err}`);
         return of(null); // I should pass an error to some kind of error handler.

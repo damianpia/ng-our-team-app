@@ -1,6 +1,7 @@
 @import "../../../../styles.scss";
 
 .member-card {
+    font-family: $font-stack;
     text-align: center;
 
     .face-photo {
@@ -12,10 +13,14 @@
 
     .employee-name {
         color: $blue-01;
-        font-weight: bold;
+        font-weight: bolder;
     }
 
     .employee-position {
         color: $blue-02;
+    }
+
+    .employee-contact-info {
+        margin: $margin-small;
     }
 }
