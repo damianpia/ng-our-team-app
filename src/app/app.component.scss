@@ -1,0 +1,6 @@
+@import "../styles.scss";
+
+.main-container {
+    display: grid;
+    gap: $margin-small; // it would be nice to use some CSS frameworks to standarize the margins
+}
